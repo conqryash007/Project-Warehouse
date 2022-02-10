@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(10, 43, 48);
+  text-align: center;
+}
+.inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3vw;
+  color: aliceblue;
+}
+.container001 {
+  display: flex;
+  justify-content: space-around;
+}
+label {
+  width: 6vw;
+  border-radius: 10px 0 0 10px;
+  background-color: rgb(4, 165, 170);
+  border: none;
+  padding: 6.5px;
+}
+select {
+  width: 25vw;
+  height: 48px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  padding: 6px;
+  transition: 0.5s;
+}
+.container002 {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  padding: 10px;
+  width: 20vw;
+  height: 45vh;
+  justify-content: space-around;
+  background-color: rgb(7, 207, 191);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ttt {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+}
+.warn {
+  color: aliceblue;
+  margin: 4vh;
+}
+button {
+  height: 40px;
+  width: 6vw;
+  border-radius: 10px;
+  background-color: rgb(4, 165, 170);
+  border: none;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container002 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    width: 80%;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+  }
+}

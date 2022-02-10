@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💉🩸COVID TRACKER🩸💉</title>
+    <link rel="stylesheet" href="./static/index.css" />
+  </head>
+  <body>
+    <h1 class="title">😷COVID TRACKER😷</h1>
+    <div class="container001">
+      <form action="/" method="post" class="ttt">
+        <div class="inp">
+          <label>Enter the month : </label>
+          <select name="month">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+        </div>
+        <button class="btn">SUBMIT</button>
+        <div class="inp">
+          <label>Enter the year : </label>
+          <select name="year">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <h1 style="color: azure"><%= data.date || data.message %></h1>
+    <div class="mainContainer">
+      <div class="container002">
+        <div class="card">
+          <h1>MONTHLY POSITIVE CASES</h1>
+          <hr />
+          <h1><%= data.positiveCasesMonthly || data.message %></h1>
+        </div>
+        <div class="card">
+          <h1 style="color: green">MONTHLY RECOVERED CASES</h1>
+          <hr />
+          <h1><%= data.recoveredMonthly || data.message %></h1>
+        </div>
+        <div class="card">
+          <h1 style="color: red">MONTHLY DEATHS</h1>
+          <hr />
+          <h1><%= data.deathsMonthly || data.message %></h1>
+        </div>
+      </div>
+      <div class="container002">
+        <div class="card">
+          <h2>TOTAL POSITIVE CASES UNTIL THE DATE</h2>
+          <hr />
+          <h1><%= data.totalPositive || data.message %></h1>
+        </div>
+        <div class="card">
+          <h2 style="color: green">TOTAL RECOVERED CASES UNTIL THE DATE</h2>
+          <hr />
+          <h1><%= data.totalRecovered || data.message %></h1>
+        </div>
+        <div class="card">
+          <h2 style="color: red">TOTAL DEATHS UNTIL THE DATE</h2>
+          <hr />
+          <h1><%= data.totalDeaths || data.message %></h1>
+        </div>
+      </div>
+      <p class="warn">YASH GUPTA</p>
+      <p class="warn">
+        !! The API data is only available for 2020-03-10 to 2021-12-15 !!
+      </p>
+    </div>
+  </body>
+</html>
