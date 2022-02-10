@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+.top-menu {
+  /* margin: 20px 51px 158.7px 83px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: #dad6d6; */
+  margin: 20px;
+}
+.logo-menu {
+  display: flex;
+  flex-direction: column;
+}
+.BAChain {
+  /* margin: 2px 1423px 1.2px 0; */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #313131;
+}
+.Transparency {
+  height: 13px;
+  /* margin: 1.2px 1309.9px 2.8px 1.1px; */
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 10px;
+  color: #313131;
+}
+.Ellipse-211 {
+  width: 40px;
+  height: 41px;
+  border-radius: 40px;
+  margin: 0 16px 0 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #707070;
+  background-color: #fff;
+}
+.username {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #182c40;
+}
+.user-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}

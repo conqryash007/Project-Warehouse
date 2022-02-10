@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.slash {
+  font-size: large;
+  font-weight: 100;
+  color: black;
+}
+.navbar {
+  font-family: "Quintessential", cursive;
+  display: flex;
+  /* position: relative; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  border-bottom: 2px solid #fff;
+}
+
+.brand-title {
+  font-size: 2rem;
+  margin: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.brand-title a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.navbar-links {
+  height: 100%;
+  font-family: "Quintessential", cursive;
+  font-size: large;
+  font-weight: 4px;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.disp {
+  display: none;
+}
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+}
+
+.navbar-links li:hover {
+  background-color: cornflowerblue;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1.2rem;
+  left: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+/*///////////////////*/
+
+.container-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.cont-01-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-01 {
+  position: absolute;
+  color: #fff;
+  margin: auto;
+  padding: 4vh;
+  font-family: cursive;
+  font-size: 30px;
+}
+.cont-01-item {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  position: absolute;
+  justify-content: space-around;
+  width: 80vw;
+  height: 60vh;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  -webkit-box-shadow: 0px 5px 11px 2px rgba(79, 77, 79, 0.58);
+  -moz-box-shadow: 0px 5px 11px 2px rgba(79, 77, 79, 0.58);
+  box-shadow: 0px 5px 11px 2px rgba(79, 77, 79, 0.58);
+}
+.img-cont-01 {
+  display: flex;
+  align-items: center;
+}
+.img-1 {
+  height: 38vh;
+  margin-left: 5vw;
+  z-index: 3;
+  border: solid white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+}
+.img-2 {
+  z-index: 2;
+  margin-left: 13vw;
+  height: 33vh;
+  position: absolute;
+  border: solid white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+}
+.img-3 {
+  margin-left: 20vw;
+  position: absolute;
+  z-index: 1;
+  height: 30vh;
+  border: solid white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+}
+.bg-01 {
+  width: 90vw;
+  height: 40vh;
+  border-radius: 20px;
+}
+.text-cont-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.btn {
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 12px 31px 14px 31px;
+  text-decoration: none;
+}
+
+.container-02 {
+  width: 100%;
+  /* background-color: wheat; */
+
+  margin-top: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont-2-edit {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70vw;
+  height: 40vh;
+  background-color: white;
+  border-radius: 20px;
+  border: solid 1px rgba(85, 82, 82, 0.452);
+  margin-bottom: 20px;
+}
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 500px;
+  background-color: rgba(39, 37, 37, 0.253);
+  -webkit-box-shadow: 0px 0px 83px -12px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 83px -12px rgba(0, 0, 0, 1);
+  box-shadow: 1px 10px 70px -12px rgba(0, 0, 0, 1);
+}
+
+.cont-3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* The role of media query is that, it says if certain condition meet run the code of inside it, and if not then don't */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    -webkit-box-shadow: 0px 10px 47px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 0px 10px 47px 0px rgba(0, 0, 0, 0.77);
+    box-shadow: 0px 10px 47px 0px rgba(0, 0, 0, 0.77);
+  }
+  .brand-title {
+    top: 1.2rem;
+    right: 0.5rem;
+  }
+
+  /* Now the hamburgur menu will be visible */
+  .toggle-button {
+    display: flex;
+  }
+
+  /* Now the links will disapper and */
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+  .text-cont-01 {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+  .cont-01-item {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .container-02 {
+    margin-top: 75vh;
+  }
+  .container-01 {
+    margin-top: 5vh;
+  }
+  .img-cont-01 {
+    margin-top: 20px;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+}

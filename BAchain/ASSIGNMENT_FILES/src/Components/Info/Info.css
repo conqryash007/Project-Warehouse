@@ -1,0 +1,122 @@
+.loan-rect {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.loan-rect-ele-1 {
+  height: 763.5px;
+  width: 70vw;
+  box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+}
+.loan-rect-ele-2 {
+  height: 763.5px;
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+}
+.bar-graph-1 {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to right, #2896e9, #7467f0 100%);
+}
+.rect-1-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chunk-1 {
+  display: flex;
+  flex-direction: column;
+}
+.chunk-2 {
+  display: flex;
+}
+.Rectangle-16846 {
+  width: 32px;
+  height: 4px;
+  border-radius: 2px;
+  background-image: linear-gradient(265deg, #7467f0 98%, #2896e9 0%);
+}
+.yci {
+  margin: 0 0 4px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #161616;
+}
+.mm {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8d8d8d;
+}
+.c-disp {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2896e9;
+}
+
+.disp-flex-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-block {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 1vw;
+  column-gap: 40px;
+}
+.image {
+  width: 12px;
+  height: 10px;
+  border-radius: 15vw;
+  padding: 10px 8.4px 9.3px 8.2px;
+  background-color: #2dcd7a;
+}
+.img-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.data-sec {
+  font-size: 11px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #767676;
+}
+
+.d-line {
+  border-radius: 2px;
+  height: 4vh;
+  width: 2px;
+  box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+  background-color: #767676;
+  margin-left: 2vw;
+}
+.c-val {
+  color: #161616;
+}
+.timeline {
+  margin-top: 15vh;
+}

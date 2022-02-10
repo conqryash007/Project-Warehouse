@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrare</title>
+
+    <!-- LINKING STYLE SHEET FILE -->
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Serif+Pro:ital@1&display=swap");
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- This is for hamburger menu -->
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="brand-title">
+        <img src="./ASSETS/Logo.png" alt="" />
+      </div>
+      <!-- This is the link for the different pages -->
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#Wedding Cards">Wedding Cards</a></li>
+          <li><a href="#Birthday Cards">Birthday Cards</a></li>
+          <li><a href="#Feeling Cards">Feeling Cards</a></li>
+          <li><a href="#Anniversary Cards">Anniversary Cards</a></li>
+          <li class="disp"><a href="#Login">Login</a></li>
+          <li class="disp"><a href="#Signup">Signup</a></li>
+        </ul>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#Login">Login</a></li>
+          <li><span class="slash">/</span></li>
+          <li><a href="#Signup">Signup</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div style="display: flex; flex-direction: column; justify-content: center">
+      <div class="container-01">
+        <div class="cont-01-bg">
+          <p class="text-01">Digital Card Details</p>
+          <img class="bg-01" src="./ASSETS/Background.jpg" alt="" />
+        </div>
+        <div class="cont-01-item">
+          <div class="img-cont-01">
+            <img class="img-1" src="./ASSETS/Page1.jpg" alt="" />
+            <img class="img-2" src="./ASSETS/Page2.jpg" alt="" />
+            <img class="img-3" src="./ASSETS/Page3.jpg" alt="" />
+          </div>
+          <div class="text-cont-01">
+            <h1>Card Title</h1>
+            <div
+              style="
+                width: 22vw;
+                display: flex;
+                justify-content: space-between;
+                font-size: larger;
+                font-weight: 400;
+              "
+            >
+              <p>
+                $400 <span><strike>$2000</strike></span>
+              </p>
+              <p style="color: rgb(23, 223, 23)">75% off</p>
+            </div>
+            <p>
+              Donec eu ornare mi. Sed finibus condimentum mauris, ut dictum eros
+              maximus vitae. Nullam condimentum tortor ac elit feugiat iaculis.
+              Aenean mauris nisl, blandit
+            </p>
+            <button class="btn">Try This Card</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-02">
+        <h1>Features</h1>
+        <div class="cont-2-edit">
+          <div class="cont-3">
+            <div class="circle"></div>
+            <div class="txt">
+              <p>Editing is available after purchase also</p>
+            </div>
+          </div>
+          <div class="cont-3">
+            <div class="circle"></div>
+            <div class="txt">
+              <p>Customize the Text with "Edit this Page" Option</p>
+            </div>
+          </div>
+          <div class="cont-3">
+            <div class="circle"></div>
+            <div class="txt"><p>Create your card in just 5 mins</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
